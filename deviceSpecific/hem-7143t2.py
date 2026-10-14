@@ -32,7 +32,7 @@ class deviceSpecificDriver(sharedDeviceDriverCode):
       13     byte 12 XOR 0xFF
 
     A second field of 63 marks a reading taken while the device clock was not
-    set (e.g. after a battery change). Such records carry no usable time and
+    set. Such records carry no usable time and
     are skipped.
 
     Time sync (-t) and the unread counter (-n) are not supported.
