@@ -500,4 +500,5 @@ async def main():
             except Exception as e:
                 logger.debug(f"Scanner stop raised (ignored): {e}")
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
